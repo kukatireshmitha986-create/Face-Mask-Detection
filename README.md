@@ -1,8 +1,8 @@
 # 😷 Face Mask Detection using Deep Learning
 
-A Deep Learning-based Face Mask Detection system that classifies images into With Mask and Without Mask categories.
+A Deep Learning-based Face Mask Detection system that classifies images into **With Mask** and **Without Mask** categories.
 
-This project uses TensorFlow and Keras to train an image classification model and Streamlit to provide an interactive web application where users can upload an image and receive a prediction with a confidence score.
+This project uses **TensorFlow and Keras** to train an image classification model and **Streamlit** to provide an interactive web application where users can upload an image and receive a prediction with a confidence score.
 
 ---
 
@@ -12,8 +12,8 @@ Face Mask Detection is a Computer Vision and Deep Learning project designed to i
 
 The system classifies images into two categories:
 
-- 😷 With Mask
-- 🙂 Without Mask
+- 😷 **With Mask**
+- 🙂 **Without Mask**
 
 The trained Deep Learning model is integrated with a Streamlit web application for interactive image prediction.
 
@@ -89,7 +89,7 @@ Dataset/
 ├── with_mask/
 └── without_mask/
 
-The images are resized to 160 × 160 pixels before being passed to the Deep Learning model.
+The images are resized to **160 × 160 pixels** before being passed to the Deep Learning model.
 
 The dataset is not included in the GitHub repository because of its size.
 
@@ -97,7 +97,7 @@ The dataset is not included in the GitHub repository because of its size.
 
 ## 🧠 Deep Learning Model
 
-The project uses a Convolutional Neural Network (CNN) for binary image classification.
+The project uses a **Convolutional Neural Network (CNN)** for binary image classification.
 
 The model performs:
 
@@ -116,10 +116,10 @@ The model performs:
 
 Binary Classification
 
-Classes:
+### Classes
 
-- With Mask
-- Without Mask
+- 😷 With Mask
+- 🙂 Without Mask
 
 The trained model is saved as:
 
@@ -130,8 +130,6 @@ model/face_mask_detector.keras
 ## 📈 Training Results
 
 The model was trained using the face mask dataset.
-
-Training performance graphs are included in the model folder.
 
 ### Training Accuracy
 
@@ -153,15 +151,15 @@ Users can upload an image and the application displays:
 - Predicted class
 - Confidence score
 
-### Application Screenshot
+### 🏠 Application Screenshot
 
 ![Application](screenshots/home.png)
 
-### With Mask Prediction
+### 😷 With Mask Prediction
 
 ![With Mask](screenshots/with_mask.png)
 
-### Without Mask Prediction
+### 🙂 Without Mask Prediction
 
 ![Without Mask](screenshots/without_mask.png)
 
@@ -169,23 +167,25 @@ Users can upload an image and the application displays:
 
 ## ⚙️ Installation
 
-Clone the repository:
+### 1. Clone the Repository
 
 git clone https://github.com/kukatireshmitha986-create/Face-Mask-Detection.git
 
-Open the project folder:
+### 2. Open the Project Folder
 
 cd Face-Mask-Detection
 
-Create a virtual environment:
+### 3. Create a Virtual Environment
 
 python -m venv venv
 
-Activate the virtual environment on Windows PowerShell:
+### 4. Activate the Virtual Environment
+
+For Windows PowerShell:
 
 .\venv\Scripts\Activate.ps1
 
-Install the required libraries:
+### 5. Install Required Libraries
 
 pip install -r requirements.txt
 
@@ -199,7 +199,7 @@ python -m streamlit run app.py
 
 The application will open in your web browser.
 
-Usually the application is available at:
+Usually available at:
 
 http://localhost:8501
 
@@ -334,19 +334,18 @@ Through this project, I gained practical experience in:
 | Framework | TensorFlow & Keras |
 | Interface | Streamlit |
 | Image Size | 160 × 160 |
-| Model Format | .keras |
+| Model Format | `.keras` |
 | Language | Python |
 
 ---
 
 ## 👩‍💻 Author
 
-K. Reshmitha
+### K. Reshmitha
 
 AI & Data Science Student
 
-GitHub:
-https://github.com/kukatireshmitha986-create
+GitHub: https://github.com/kukatireshmitha986-create
 
 ---
 
@@ -354,13 +353,8 @@ https://github.com/kukatireshmitha986-create
 
 Face Mask Detection using Deep Learning
 
-Repository:
-https://github.com/kukatireshmitha986-create/Face-Mask-Detection
+Repository: https://github.com/kukatireshmitha986-create/Face-Mask-Detection
 
 If you find this project useful, please give the repository a ⭐.
 
----
 
-## 📄 License
-
-This project is created for educational and learning purposes.
